@@ -1072,7 +1072,43 @@
         "aggregate/ast/ffdc059bfe9ce6a4e144ba849dbedead332c6053.nq.gz"
       ],
       "lsp": "aggregate/lsp/ffdc059bfe9ce6a4e144ba849dbedead332c6053.nq.gz",
-      "repolex": "aggregate/repolex/ffdc059bfe9ce6a4e144ba849dbedead332c6053.nq.gz"
+      "repolex": "aggregate/repolex/ffdc059bfe9ce6a4e144ba849dbedead332c6053.nq.gz",
+      "dep": "dep/ffdc059bfe9ce6a4e144ba849dbedead332c6053.nq.gz",
+      "dependencies": [
+        {
+          "packageName": "github.com/davecgh/go-spew",
+          "ecosystem": "GO",
+          "version": "1.1.0",
+          "githubOrg": "davecgh",
+          "githubRepo": "go-spew",
+          "githubCommit": "346938d642f2ec3594ed81d874461961cd0faa76",
+          "githubTag": "v1.1.0",
+          "githubUrl": "https://github.com/davecgh/go-spew",
+          "source": "build_file:go.mod"
+        },
+        {
+          "packageName": "github.com/pmezard/go-difflib",
+          "ecosystem": "GO",
+          "version": "1.0.0",
+          "githubOrg": "pmezard",
+          "githubRepo": "go-difflib",
+          "githubCommit": "792786c7400a136282c1664665ae0a8db921c6c2",
+          "githubTag": "v1.0.0",
+          "githubUrl": "https://github.com/pmezard/go-difflib",
+          "source": "build_file:go.mod"
+        },
+        {
+          "packageName": "github.com/stretchr/objx",
+          "ecosystem": "GO",
+          "version": "0.1.0",
+          "githubOrg": "stretchr",
+          "githubRepo": "objx",
+          "githubCommit": "facf9a85c22f48d2f52f2380e4efce1768749a89",
+          "githubTag": "v0.1.0",
+          "githubUrl": "https://github.com/stretchr/objx",
+          "source": "build_file:go.mod"
+        }
+      ]
     },
     {
       "commit": "221dbe5ed46703ee255b1da0dec05086f5035f62",
